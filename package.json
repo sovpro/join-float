@@ -1,0 +1,31 @@
+{
+  "name": "@sovpro/join-float",
+  "version": "1.0.0",
+  "description": "Join two arrays of single-digit numbers into a float number",
+  "main": "join-float.js",
+  "scripts": {
+    "test": "istanbul cover test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sovpro/join-float.git"
+  },
+  "keywords": [
+    "join",
+    "float",
+    "array",
+    "digits"
+  ],
+  "author": "sovpro <its.so@outlook.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "devDependencies": {
+    "istanbul": "^0.4.5"
+  },
+  "dependencies": {
+    "@sovpro/afloat": "^1.0.0",
+    "@sovpro/join-num": "^1.0.0"
+  }
+}
